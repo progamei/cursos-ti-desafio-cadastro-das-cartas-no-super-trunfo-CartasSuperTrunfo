@@ -6,9 +6,9 @@ int main() {
 
     char cidade1[30], cidade2[30]; 
     int populacao1, populacao2;
-    float area1, area2;
-    double pib1, pib2;
+    int area1, area2;
     int pontos_turisticos1, pontos_turisticos2;
+    float pib1, pib2;
 
 //Imprime uma mensagem de boas vindas no Terminal.
 
@@ -20,6 +20,7 @@ int main() {
 //Fornece perguntas ao usuário 1 e armazena os dados informados.
 
     printf("JOGADOR 1\nInsira os atributos:\n");
+    printf ("\v");
 
     printf("Qual o nome da cidade?\n");
     scanf("%s", cidade1);
@@ -31,7 +32,7 @@ int main() {
     scanf("%d", &pontos_turisticos1);
 
     printf("Qual a área da cidade em km²?\n");  
-    scanf("%f", &area1);
+    scanf("%d", &area1);
 
     printf("Qual o PIB da cidade?\n");
     scanf("%f", &pib1);
@@ -39,6 +40,7 @@ int main() {
  //Fornece perguntas ao usuário 2 e armazena os dados coletados.
     printf ("\v");
     printf("JOGADOR 2\nInsira os atributos:\n");
+    printf ("\v");
     
     printf("Qual o nome da cidade?\n");
     scanf("%s", cidade2);
@@ -50,7 +52,7 @@ int main() {
     scanf("%d", &pontos_turisticos2);
 
     printf("Qual a área da cidade em km²?\n");  
-    scanf("%f", &area2);
+    scanf("%d", &area2);
 
     printf("Qual o PIB da cidade?\n");
     scanf("%f", &pib2);
@@ -61,7 +63,7 @@ int main() {
     printf("Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
     printf("Pontos túristicos: %d\n", pontos_turisticos1);
-    printf("Area: %f km² \n", area1);
+    printf("Área: %dkm² \n", area1);
     printf("PIB: R$%.2f\n",pib1);
 
     printf ("\v");
@@ -70,11 +72,11 @@ int main() {
     printf("Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
     printf("Pontos túristicos: %d\n", pontos_turisticos2);
-    printf("Area: %f km² \n", area2);
+    printf("Área: %dkm² \n", area2);
     printf("PIB: R$%.2f\n",pib2);
 
 
 
 
-    return 0;
+return 0;
 }
