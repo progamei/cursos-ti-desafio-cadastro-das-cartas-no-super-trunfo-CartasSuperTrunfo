@@ -117,10 +117,8 @@ int main() {
 
     printf ("\v");
     //Insere uma quebra de texto, para melhor visualização.
-
     
-
- /////////////DADOS DE AMBAS AS CARTAS/////////////
+    /////////////DADOS DE AMBAS AS CARTAS/////////////
 
     printf("#CARTA 1:#\n");
     //Imprime a mensagem entre aspas no terminal e salta uma linha.
